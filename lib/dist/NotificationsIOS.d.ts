@@ -27,10 +27,6 @@ export declare class NotificationsIOS {
      */
     setBadgeCount(count: number): void;
     /**
-     * cancelAllLocalNotifications
-     */
-    cancelAllLocalNotifications(): void;
-    /**
      * checkPermissions
      */
     checkPermissions(): Promise<import("./interfaces/NotificationPermissions").NotificationPermissions>;
